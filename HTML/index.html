@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfólio</title>
 </head>
 <body>
@@ -20,6 +21,7 @@
             <ul class="navbar-header">
                 <!--elemento da lista-->
                 <li><a href="#">Home</a></li>
+                <li><a href="#">Habilidades</a></li>
                 <li><a href="#">Sobre mim</a></li>
                 <li><a href="#">Fale comigo</a></li>
                 <li><a href="#">Portfólio</a></li>
@@ -28,19 +30,77 @@
            <a href="#" id="btn-color" class="btn-header"> Curriculo</a>
         </div>
     </header>
+    <!--Home-->
     <section class="home" id="homeID">
         <div class="home-text">
             <h1>Vitor de Jesus</h1>
             <h5>Desenvolvedor Full Stack <br><span>Bahia - Brasil</span></h5>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem officia, ullam officiis eaque corporis ad repudiandae laudantium eligendi, maiores minima <br> 
             voluptas. Delectus consectetur perferendis quisquam facilis porro recusandae nesciunt corrupti.</p>
+            <div class="home-social-media">
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+               <a href=""><i class="fa-brands fa-github-alt"></i></a>
+            </div>
+                <a href="#" class="btn-sobre">Sobre mim</a>
         </div>
         <div class="home-image">
-            <img src="CSS/image/eu.jpg" alt="">
+            <img src="CSS/image/eu2.png" alt="">
         </div>
     </section>
+    <section class="services" id="services">
+        <div class="services-itens">
+            <div class="itens">
+                <div class="service-item-image">
+                    <img src="CSS/image/html.png" alt="">
+                </div>
+                <h3>HTML5</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat voluptatum quia saepe maxime quod porro, aut et harum temporibus eaque nemo rerum in nam repellat earum velit possimus placeat quo!</p>
+                
+            
+            
+            </div>
+            <div class="item2">
+                   <div class="image2">
+                    <img src="CSS/image/java.png" alt="">
+                </div>
+                <h3>JAVA</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, soluta, quidem minima, quae molestiae magnam deserunt sit dolorem quo autem eius expedita quibusdam debitis exercitationem explicabo commodi nobis laboriosam nisi.</p>
+                </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="CSS/image/eu3.png" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Eu sou desenvolvedor de sistemas</h3>
+            <p>
+                Apaixonado e interessado na área desde muito jovem, comecei como autodidata mas, atualmente, estou finalizando o curso técnico de Desenvolvimento de Sistemas e recém ingressante no ensino superior em Sistemas de informação.</p>
+                <a href="#" class="btn"> Clique aqui</a>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h3>Fale comigo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum enim </p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="email" name="email" placeholder="Envie sua mensagem" required>
+                    <input type="submit" name="submit" value="ENVIAR MENSAGEM">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados &copy; 2022</p>
+    </footer>
+    
     <main>
         
     </main>
+
+    <script type="text/javascript" src="JS/script.js"></script>
 </body>
 </html>
