@@ -177,6 +177,17 @@ footer{
     text-align: center;
 
 }
+.habi {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.habi h3{
+    font-size: 35px;
+    border-bottom: 1px solid var(--text-colorw);
+}
 .itens{
     padding: 50px;
     transition: ease .50s;
