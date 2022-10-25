@@ -3,11 +3,15 @@ const header = document.querySelector("header");
 window.addEventListener("scroll",function(){
     header.classList.toggle("sticky", window.scrollY > 0)
 });
-const octokit = new Octokit({
-    auth: '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'
-  })
-  
-  await octokit.request('GET /repos/VitaminaNescau/TestandoAPI', {
-    owner: 'VitaminaNescau',
-    repo: 'TestandoAPI'
-  })
+let menu = document.querySelector('#navbar-icon');
+let navlist = document.querySelector('.navbar-header');
+menu.onclick = () =>{ 
+  menu.classList.toggle('bx-x');
+  navlist.classList.toggle('active')
+}
+const sr = ScrollReveal({
+  distance: '50px',
+  duration:3000,
+  reset:true
+})
+sr.reveal('.home-text',{delay:350, origin:'left'})
