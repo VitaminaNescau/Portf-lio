@@ -7,7 +7,7 @@ let menu = document.querySelector('#navbar-icon');
 let navlist = document.querySelector('.navbar-header');
 menu.onclick = () =>{ 
   menu.classList.toggle('bx-x');
-  navlist.classList.toggle('active')
+  navlist.classList.toggle('active');
 }
 const sr = ScrollReveal({
   distance: '50px',
